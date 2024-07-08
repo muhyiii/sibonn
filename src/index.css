@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "VI Bang Lang";
+  src: url("./../public/fonts/BANLAN1T.TTF") format("truetype");
+}
+.bang-lang {
+  font-family: "VI Bang Lang", sans-serif;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+}
+
+.avatar {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.elephant {
+  font-family: "Elephant", sans-serif;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.swal2-input {
+  display: block;
+  width: 100%;
+  padding: 0.75em;
+  margin: 1em 0;
+  font-size: 1em;
+  line-height: 1.5;
+  color: #545454;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #d8d8d8;
+  border-radius: 0.25em;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
